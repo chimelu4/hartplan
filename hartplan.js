@@ -31,9 +31,9 @@ window.addEventListener('click', (event) => {
 
 
 const backgrounds = [
-    'url("./Images/Homepage.jpg")',
-    'url("./Images/pexels-19x14-8478237.jpg")',
-    'url("./Images/pexels-anastasia-shuraeva-8470886.jpg  ")'
+    'url("images/Homepage.jpg")',
+    'url("images/pexels-19x14-8478237.jpg")',
+    'url("images/pexels-anastasia-shuraeva-8470886.jpg  ")'
 ];
 
 

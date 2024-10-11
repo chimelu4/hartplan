@@ -29,7 +29,7 @@ body {
 
 nav{
     padding: 5px;
-    background-image: url(./Images/pexels-anastasia-shuraeva-8470886.jpg);  
+    background-image: url(images/pexels-anastasia-shuraeva-8470886.jpg);  
    background-size: cover;  /* Scales the image to cover the div */
    background-position: center;  /* Centers the image */
    background-repeat: no-repeat;  /* Prevents repeating the image */

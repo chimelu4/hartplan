@@ -52,12 +52,12 @@ document.querySelectorAll('.faq h3').forEach(item => {
         document.querySelectorAll('.faq p').forEach(p => p.style.display = 'none');
         
         // Reset all dropdown images to the closed state
-        document.querySelectorAll('.dropdown-sign img').forEach(i => i.src = './Images/icons8-chevron-right-50.png');
+        document.querySelectorAll('.dropdown-sign img').forEach(i => i.src = 'images/icons8-chevron-right-50.png');
 
         // Toggle the current content section
         content.style.display = isOpen ? 'none' : 'block';
         
         // Switch the image source based on the dropdown state
-        img.src = isOpen ? './Images/icons8-chevron-right-50.png' : './Images/icons8-chevron-down-50.png';
+        img.src = isOpen ? 'images/icons8-chevron-right-50.png' : 'images/icons8-chevron-down-50.png';
     });
 });

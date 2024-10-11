@@ -27,7 +27,7 @@ body {
 
 nav{
    padding: 5px;
-   background-image: url(./Images/Edited\ portrait-engineers-work-hours-job-site\ \(2\).jpg);
+   background-image: url(images/Edited\ portrait-engineers-work-hours-job-site\ \(2\).jpg);
    background-size: cover;  /* Scales the image to cover the div */
    background-position: top;  /* Centers the image */
    background-repeat: no-repeat;  /* Prevents repeating the image */
