@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+}
+
+.container-img-h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #621a1d;
+}
+
+#paragraph-contents-contact-info {
+    color: white;
+    font-size: 10px;
+}
+
+nav{
+   padding: 5px;
+   background-image: url(./Images/Edited\ portrait-engineers-work-hours-job-site\ \(2\).jpg);
+   background-size: cover;  /* Scales the image to cover the div */
+   background-position: top;  /* Centers the image */
+   background-repeat: no-repeat;  /* Prevents repeating the image */
+   width: auto;
+   opacity: 1;
+   height: 45%;
+
+   
+  
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Removes the bullets */
+    padding-left: 0; /* Removes default padding */
+    margin-left: 0; /* Removes default margin */
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 0; /* Ensures there's no extra spacing */
+    padding: 0;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a43034;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+
+#container-navlink-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents-icon-and-contact-info img {
+    filter: brightness(1.5) contrast(1.1) saturate(1.2);
+}
+
+#signup{
+ background-color: #621a1d;
+ border: none;
+ color: white;
+ padding: 10px;
+ height: 40px;
+ width: 80px;
+ border-radius: 5px;
+}
+
+#Login{
+    background-color:white;
+    border: none;
+    color:#621a1d;
+    padding: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: #621a1d 1px solid;
+}
+
+#signup:hover{
+    background-color: #a43034;
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+   }
+   
+   #Login:hover{
+       background-color:#621a1d;
+       border: none;
+       color:white;
+       padding: 10px;
+       height: 40px;
+       border-radius: 5px;
+   }
+
+
+   .hamburger {
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+    color: #621a1d;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0; /* Position the menu to the left of the hamburger */
+}
+
+.dropdown-menu a {
+    color:#555;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #a43034;
+}
+
+
+.about-and-user-section {
+    padding: 10px;
+} 
+
+.container-about-and-user-section {
+    display: flex;
+
+}
+
+.list-items-about li , .list-items-user li {
+  list-style-type: none;
+}
+
+
+.list-items-about li a , .list-items-user li a{
+    text-decoration: none;
+    color: black;
+  }
+
+.about-and-user-container {
+    display: flex;
+    gap: 70px;
+    width: 50%;
+}
+
+.at-hartplan-container {
+    width: 50%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.container-socials a img {
+    height: 20px;
+ }
+
+.container-socials {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    #paragraph-contents-contact-info {
+        color: white;
+        font-size: 7px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links a {
+        color: #555;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .container-about-and-user-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-and-user-container {
+       width: auto;
+    }
+    
+    .at-hartplan-container {
+        width: auto;
+        padding: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    
+
+}
+
+@media  (min-width: 769px)  {
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+

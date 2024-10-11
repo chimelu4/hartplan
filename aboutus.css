@@ -1,0 +1,488 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+}
+
+.container-img-h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #621a1d;
+}
+
+#paragraph-contents-contact-info {
+    color: white;
+    font-size: 12px;
+}
+
+nav{
+   padding: 5px;
+   background-image: url(./Images/Homepage.jpg);
+   background-size: cover;  /* Scales the image to cover the div */
+   background-position-x: center;  /* Centers the image */
+   background-repeat: no-repeat;  /* Prevents repeating the image */
+   width: auto;
+   opacity: 1;
+   height: 50%;
+
+   
+  
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Removes the bullets */
+    padding-left: 0; /* Removes default padding */
+    margin-left: 0; /* Removes default margin */
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 0; /* Ensures there's no extra spacing */
+    padding: 0;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a43034;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+
+#container-navlink-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents-icon-and-contact-info img {
+    filter: brightness(1.5) contrast(1.1) saturate(1.2);
+}
+
+#signup{
+ background-color: #621a1d;
+ border: none;
+ color: white;
+ padding: 10px;
+ height: 40px;
+ width: 80px;
+ border-radius: 5px;
+}
+
+#Login{
+    background-color:white;
+    border: none;
+    color:#621a1d;
+    padding: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: #621a1d 1px solid;
+}
+
+#signup a {
+    color: white;
+    text-decoration: none;
+}
+
+#Login a {
+    color:#621a1d;
+    text-decoration: none;
+}
+
+#signup:hover{
+    background-color: #a43034;
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+   }
+   
+   #Login:hover{
+       border: none;
+       color:white;
+       padding: 10px;
+       height: 40px;
+       border-radius: 5px;
+   }
+
+
+   .hamburger {
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+    color: #621a1d;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0; /* Position the menu to the left of the hamburger */
+}
+
+.dropdown-menu a {
+    color:#555;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #a43034;
+}
+
+.who-we-are {
+    padding: 20px;
+
+}
+
+.paragraph-who-we-are-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 20px;
+}
+
+
+
+.who-we-are-paragraph {
+    width: 50%;
+}
+
+.who-we-are-img {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.who-we-are-img img{
+    width: 100%;
+    height: auto;
+    min-width: auto; /* Adjust based on the layout */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.what-makes-us-unique-container {
+    padding: 20px;
+}
+
+.paragraph-what-makes-us-unique-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+
+}
+
+.what-makes-us-unique-img {
+    width: 50%;
+    box-sizing: border-box;
+    
+
+}
+
+.what-makes-us-unique-img img{
+    width: 100%;
+    height: auto;
+    min-width: auto; /* Adjust based on the layout */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.what-makes-us-unique-paragraph {
+    width: 50%;
+}
+
+.meet-our-team {
+ padding: 20px;
+}
+
+
+.team-member-image img {
+    width: 100%;
+    height: auto;
+    min-width: auto; /* Adjust based on the layout */
+    border-radius: 20px;
+    
+}
+
+#team-member1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#team-member2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+#team-member3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#team-member4 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+#team-member5 {
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+}
+
+#team-member6 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+
+    
+
+
+.team-member-image, .team-member-about {
+    width: 50%;
+
+}
+
+.about-and-user-section {
+    padding: 10px;
+} 
+
+.container-about-and-user-section {
+    display: flex;
+
+}
+
+.list-items-about li , .list-items-user li {
+  list-style-type: none;
+}
+
+
+.list-items-about li a , .list-items-user li a{
+    text-decoration: none;
+    color: black;
+  }
+
+.about-and-user-container {
+    display: flex;
+    gap: 70px;
+    width: 50%;
+}
+
+.at-hartplan-container {
+    width: 50%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.container-socials a img {
+    height: 20px;
+ }
+
+.container-socials {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 499px) {
+    #paragraph-contents-contact-info {
+        display: none;
+    }
+    }
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links a {
+        color: #555;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .container-about-and-user-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-and-user-container {
+       width: auto;
+    }
+    
+    .at-hartplan-container {
+        width: auto;
+        padding: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    
+.paragraph-who-we-are-container {
+    display: flex;
+    flex-direction: column;
+}
+.who-we-are-paragraph{
+    width: auto;
+    
+}
+
+.who-we-are-img {
+    width: 100%;
+    text-align: center;
+}
+
+.paragraph-who-we-are-container img {
+    width: 300;
+    object-fit: cover;
+}
+
+.paragraph-what-makes-us-unique-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 100px;
+}
+
+     
+.what-makes-us-unique-paragraph {
+    width: auto;
+    
+}
+
+.what-makes-us-unique-img {
+    width: auto;
+    text-align: center;
+   
+ }
+
+ #team-member1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#team-member2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#team-member3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#team-member4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#team-member5 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#team-member6 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.team-member-image, .team-member-about {
+    width: 100%;
+    
+}
+
+}
+
+@media  (min-width: 769px)  {
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+

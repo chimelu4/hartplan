@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    
+   
+}
+
+.container-signup {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+  
+}
+
+.container-signup-details {
+    margin: 5px;
+}
+
+
+.line {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.line span {
+    background: #fff;
+    padding: 0 10px;
+    color: #555;
+}
+
+.container-signup-details {
+    margin: 30px;
+    
+}
+
+.container-logoimg-and-h2 {
+    justify-content: center;
+}
+
+.SignUp h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.SignUp {
+    text-align: center;
+}
+
+.Sign-Up-with {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sign-Up-with button {
+   width: 300px;
+   height: 60px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: #f4f4f4;
+   border: 1px solid black;
+}
+
+.sign-up-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.sign-up-button:hover {
+    background-color: #f1f1f1;
+}
+
+.sign-up-button img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.sign-up-button span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.line {
+    font-size: 15px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+
+}
+
+.container-form button{
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #621a1d;
+    
+}
+
+.container-form button:hover{
+    background-color: #a43034;
+    
+}
+
+.terms-and-condition {
+ font-size: 10px;
+}
+
+.have-an-account {
+    font-size: 15px;
+}
+
+.have-an-account p a {
+    text-decoration: none;
+    color: #621a1d;
+}
+
+.have-an-account p a:hover {
+    color: #a43034;
+}
+
+
+
+
+

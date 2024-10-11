@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    
+   
+}
+
+    .container-reset-password {
+        text-align: center;
+        margin: 1;
+    }     
+
+     .container-reset-password button {
+        margin: 20px;
+        width: 300px;
+        height: 40px;
+        background-color: #621a1d;
+        color: #f4f4f4;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .container-reset-password button:hover {
+        background-color: #a43034;
+    }
+
+
+    .container-reset-password h2 {
+        font-size: 40px;
+        color: #621a1d;
+    }
+
+    .container-reset-password input {
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        background-color:#f4f4f4;
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .container-reset-password a {
+        margin: 10px;
+        color: #621a1d;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .container-reset-password a:hover {
+       color: #a43034;
+    }
+
+    .container-reset-password p {
+        font-size: 15px;
+        color: #555;
+    }
